@@ -23,7 +23,7 @@ $result = mysqli_query($conn, $query);
       <td colspan="2">
         <form action="list.php" method="get">
           <input type="text" name="cari" placeholder="Cari Mahasiswa">
-          <input type="submit" value="Cari">
+          <input type="submit">
         </form>
       </td>
       <td>
